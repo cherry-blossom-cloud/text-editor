@@ -2,11 +2,11 @@
   "name": "text-editor",
   "version": "0.0.1",
   "description": "Main text editor interface.",
-  "main": "src/cmd/app.js",
+  "main": "build/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/tsc",
-    "start": "electron ./src/cmd/app.js"
+    "start": "electron ./build/app.js"
   },
   "repository": {
     "type": "git",
