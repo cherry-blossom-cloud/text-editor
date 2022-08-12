@@ -1,0 +1,26 @@
+{
+  "name": "text-editor",
+  "version": "0.0.1",
+  "description": "Main text editor interface.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/text-editor-cloud-microservices/text-editor.git"
+  },
+  "keywords": [
+    "text-editor"
+  ],
+  "author": "Eric Hicks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/text-editor-cloud-microservices/text-editor/issues"
+  },
+  "homepage": "https://github.com/text-editor-cloud-microservices/text-editor#readme",
+  "devDependencies": {
+    "electron": "^20.0.2"
+  }
+}
